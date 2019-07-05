@@ -9,9 +9,14 @@
 /*-----------------landingpage----------------*/
 
 #landing {
-	color: 50vh;
+	height: 100vh;
+	padding: 0;
+
 }
 
+#imge {
+	height: 100vh;
+}
 
 .logo {
 
@@ -50,13 +55,19 @@
 	
 }
 
-#logo {
+#logo1 {
 	position: absolute;
-	top: -31%;
+	top: -23%;
 	left: 0;
 	height: 25vh;
 }
 
+#logo {
+	position: absolute;
+	top: -23%;
+	left: 0;
+	height: 25vh;
+}
 
 /*----------------------------------history-----------------------------*/
 
@@ -190,6 +201,37 @@ footer {
 @media only screen and (max-width: 400px) 
 {
 
+
+/*--------------------------landing -------------*/
+
+
+#landing {
+	height: 31vh;
+	
+
+}
+
+#imge {
+	width: 100%;
+
+height: 31vh;
+}
+
+
+
+#home-background {
+	background-image: url(../images/5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	margin: 0;
+}
+
+
+
+/*----------contact------------------*/
+
 .usog {
 	margin: 19px 0 0 0;
 }
@@ -204,6 +246,16 @@ footer {
 
 @media only screen and (min-width: 401px) and (max-width: 960px)
 {
+
+
+
+
+
+
+
+
+
+/*----------contact------------------*/
 
 .usog {
 	margin-left: 0;	
