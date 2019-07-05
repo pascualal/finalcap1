@@ -220,6 +220,27 @@ height: 31vh;
 }
 
 
+
+/*----------------navbar--------*/
+
+
+#navbar-nav {
+	background-color: #FBB016;
+	padding-left: 199px;
+
+}
+
+
+
+#navbar {
+	padding: 0
+}
+
+#burger {
+	padding-right: 100px;
+}
+
+
 /*--------------------history----------*/
 
 #home-background {
@@ -271,18 +292,82 @@ footer {
 {
 
 
+/*--------------------------landing -------------*/
+
+
+#landing {
+	height: 31vh;
+}
+
+#imge {
+width: 100vh;
+height: 31vh;
+}
+
+
+#intro {
+	display: none;
+}
+
+
+/*----------------nav-----------*/
+#navbar-nav {
+	background-color: #FBB016;
+	/*padding-left: 400px;*/
+}
 
 
 
+#navbar {
+	padding: 0
+}
 
+#burger {
+	padding-right: 100px;
+}
+
+/*--------------------history----------*/
+
+#home-background {
+
+height: 150vh;
+
+}
 
 
 
 /*----------contact------------------*/
 
 .usog {
-	margin-left: 0;	
-	margin-top: 55px;
+	margin: 19px 0 0 0;
+}
+
+#conbox {	
+	height: 79vh;	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------footer--------*/
+
+footer {
+	padding: 40px 0 0 30px;
+	height: 25vh;
+}
+
+#fut {
+	display: block;
+	margin-bottom: 30px;
+}
+
 }
 
 
