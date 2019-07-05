@@ -202,88 +202,97 @@ footer {
 {
 
 
-/*--------------------------landing -------------*/
+	/*--------------------------landing -------------*/
 
 
-#landing {
+	#landing {
+		height: 31vh;
+	}
+
+	#imge {
+	width: 100vh;
 	height: 31vh;
-}
-
-#imge {
-width: 100vh;
-height: 31vh;
-}
+	}
 
 
-#intro {
-	display: none;
-}
+	#intro {
+		display: none;
+	}
 
 
-/*----------------navbar--------*/
+	/*----------------navbar--------*/
 
-#navbar-nav {
-	background-color: #FBB016;
-	padding-left: 199px;
+	#navbar-nav {
+		background-color: #FBB016;
+		padding-left: 199px;
 
-}
+	}
 
 
 
-#navbar {
-	padding: 0
-}
+	#navbar {
+		padding: 0
+	}
 
-#burger {
-	padding-right: 100px;
-}
-
-
-/*--------------------history----------*/
-
-#home-background {
-
-height: 150vh;
-
-}
+	#burger {
+		padding-right: 100px;
+	}
 
 
-/*----------contact------------------*/
+	/*--------------------history----------*/
 
-.usog {
-	margin: 19px 0 0 0;
-}
+	#home-background {
 
-#conbox {	
-	height: 79vh;	
-}
+	height: 105vh;
+
+	}
 
 
-#contact-background {
-	height: 150vh;
-}
+	/*----------contact------------------*/
+
+	.usog {
+		margin: 19px 0 0 0;
+	}
+
+	#conbox {	
+		height: 79vh;	
+		margin: 57px 0 0 0;
+	}
 
 
-
+	#contact-background {
+		height: 100vh;
+	}
 
 
 
+	/*------------footer--------*/
 
+	footer {
+		padding: 0 0 0 17px;
+		margin: 19px 0 0 19px;
+		height: 13vh;
+	}
 
-/*------------footer--------*/
-
-footer {
-	padding: 40px 0 0 30px;
-	height: 25vh;
-}
-
-#fut {
-	display: block;
-	margin-bottom: 30px;
-}
+	#fut {
+		display: block;
+		margin-bottom: 11px;
+	}
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------401px--960px--------------------*/
 
@@ -291,62 +300,82 @@ footer {
 {
 
 
-/*--------------------------landing -------------*/
+	/*--------------------------landing -------------*/
 
 
-#landing {
+	#landing {
+		height: 31vh;
+	}
+
+	#imge {
+	width: 100vh;
 	height: 31vh;
-}
-
-#imge {
-width: 100vh;
-height: 31vh;
-}
+	}
 
 
-#intro {
-	display: none;
-}
+	#intro {
+		display: none;
+	}
 
 
-/*----------------nav-----------*/
-#navbar-nav {
-	background-color: #FBB016;
-	/*padding-left: 400px;*/
-}
+	/*----------------nav-----------*/
+	#navbar-nav {
+		background-color: #FBB016;
+		/*padding-left: 400px;*/
+	}
 
 
 
-#navbar {
-	padding: 0
-}
+	#navbar {
+		padding: 0
+	}
 
-#burger {
-	padding-right: 100px;
-}
+	#burger {
+		padding-right: 100px;
+	}
 
-/*--------------------history----------*/
+	/*--------------------history----------*/
 
-#home-background {
+	#home-background {
 
-height: 150vh;
+	height: 100vh;
 
-}
-
-
-
-/*----------contact------------------*/
-
-.usog {
-	margin: 19px 0 0 0;
-}
-
-#conbox {	
-	height: 79vh;	
-}
+	}
 
 
 
+	/*----------contact------------------*/
+
+	.usog {
+		margin: 39px 0 0 0;
+	}
+
+	#conbox {	
+		height: 100%;	
+		
+	}
+
+	#contact-background {
+		height: 100%;
+		padding: 0;
+	}
+
+
+	/*------------footer--------*/
+	footer {
+		padding: 0 0 0 71px;
+		margin: 19px 0 0 19px;
+		height: 13vh;
+	}
+
+	#fut {
+		display: block;
+		margin-bottom: 11px;
+	}
+
+
+	
+} /*-------------------------401--960--END--------*/
 
 
 
@@ -355,25 +384,49 @@ height: 150vh;
 
 
 
-/*------------footer--------*/
 
-footer {
-	padding: 40px 0 0 30px;
-	height: 25vh;
-}
 
-#fut {
-	display: block;
-	margin-bottom: 30px;
-}
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*-------------------401px--960px--------------------*/
 
-@media only screen and (min-width: 960px)
+@media only screen and (min-width: 961px)
 {
 
 
