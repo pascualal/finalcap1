@@ -207,25 +207,25 @@ footer {
 
 #landing {
 	height: 31vh;
-	
-
 }
 
 #imge {
-	width: 100%;
-
+width: 100vh;
 height: 31vh;
 }
 
 
+#intro {
+	display: none;
+}
+
+
+/*--------------------history----------*/
 
 #home-background {
-	background-image: url(../images/5.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 150vh;
-	margin: 0;
+
+height: 150vh;
+
 }
 
 
@@ -239,6 +239,29 @@ height: 31vh;
 #conbox {	
 	height: 79vh;	
 }
+
+
+
+
+
+
+
+
+
+
+
+/*------------footer--------*/
+
+footer {
+	padding: 40px 0 0 30px;
+	height: 25vh;
+}
+
+#fut {
+	display: block;
+	margin-bottom: 30px;
+}
+
 
 }
 
